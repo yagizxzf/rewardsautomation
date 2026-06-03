@@ -1,0 +1,34 @@
+# Browser profiles (contain personal session data)
+edge_profile/
+chrome_profile/
+chrome_bot_profile/
+
+# Bot state (generated at runtime)
+bot_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
